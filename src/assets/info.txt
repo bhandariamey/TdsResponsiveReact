@@ -2,3 +2,4 @@ Navigation bar
 
 AppBar, IconButton, MenuIcon, Typography, List, Drawer
 1. AppBar
+2. ToolBar - assign flex to children, centering vertically
