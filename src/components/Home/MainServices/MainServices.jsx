@@ -12,7 +12,7 @@ export default function MainServices(){
                     mainServices.map((service)=>{
                         return <Card className={styles.cardItem} title={service.header} information={service.description}/>
                 })}
-               </div>
+            </div>
         </>
     )
 }
