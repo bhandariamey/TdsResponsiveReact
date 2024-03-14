@@ -2,6 +2,13 @@ body{
     --color-primary: #cda274;
 }
 
+.navWrapper{
+    position: fixed; 
+    width: 100%; 
+    z-index:1;
+    background-color: white;
+}
+
 .navbarBrand{
     text-decoration: none;
     color: black;

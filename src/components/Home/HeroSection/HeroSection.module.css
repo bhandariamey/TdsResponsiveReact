@@ -1,0 +1,51 @@
+.background{
+    background-image: url("../../../assets/Photos/HomePage/heroImage.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    top: 50px
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    backdrop-filter: blur(2px);
+
+}
+
+.heroHeader{
+    font-size: 3em;
+    font-family: 'DM Serif Display';
+}
+
+.heropara{
+    font-family: 'Jost';
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .heroText{
+        top: 12%;
+    }
+
+    .heroHeader{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .heropara{
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+    }
+  }
