@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import styles from './HeroSection.module.css'
 import Typewriter from "typewriter-effect"
 

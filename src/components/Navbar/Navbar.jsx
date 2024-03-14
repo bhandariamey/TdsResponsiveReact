@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import {  Link } from "react-router-dom";
-
-
 import styles from "./Navbar.module.css"
 
 export default function Navbar() {

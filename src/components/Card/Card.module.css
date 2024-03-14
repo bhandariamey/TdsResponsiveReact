@@ -1,0 +1,47 @@
+.cardWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f0ec;
+    border-radius: 2em;
+    margin: 2em;
+    padding: 2em 0em;
+}
+
+.cardWrapper:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.header{
+    padding-top: 2rem;
+    font-size: 26px;
+    font-family: "DM Serif Display";
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.description{
+    padding: 0rem 2rem 2rem 2rem;
+    color: #4d5053;
+    font-family: "jost";
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .description{
+        padding: 0rem;
+        font-size: 15px;
+    }
+
+    .cardWrapper{
+        padding: 1em;
+        background-color: white;
+    }
+    
+  }
