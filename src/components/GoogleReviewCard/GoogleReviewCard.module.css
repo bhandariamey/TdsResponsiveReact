@@ -1,0 +1,68 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    height: 24em;
+    padding: 2em 0em;    
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.userPhoto{
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   top: 50%;
+   border-radius: 50%;
+}
+
+.userName{
+    color: #292f36;
+    font-size: 25px;
+    font-family: "DM Serif Display";
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 0.3em;
+}
+
+.userLocation{
+    color: #292f36;
+    font-size: 20px;
+    font-family: "jost";
+    line-height: 1.5;
+    color: #4d5053;
+    letter-spacing: .01em;
+    margin-bottom: 0.3em;
+}
+
+.userStars{
+    margin-bottom: 0.3em;
+}
+
+.userDesc{
+    margin: 0 2em;
+    color: #4d5053;
+    letter-spacing: .01em;
+    font-family: "jost";
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+   @media (max-width: 748px){
+
+    .userName{
+        font-size: 22px;
+    }
+
+    .userLocation{
+        font-size: 18px;
+    }
+
+    .userDesc{
+        font-size: 18px;
+    }      
+}
