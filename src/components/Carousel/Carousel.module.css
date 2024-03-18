@@ -4,7 +4,10 @@
     background-color: #f4f0ec;
     padding: 3em 0em;
     border-radius: 2em;
-    margin: 0em 1em;
+    margin: 0em 1em 4em;
+    position: relative;
+    cursor: pointer;
+    z-index: -1;
 }
 
 .title{
@@ -21,8 +24,10 @@
     background-color: white;
 }
 
+
 @media (max-width: 748px) {
     .title{
         font-size:30px;
     }
-  }
+
+}
