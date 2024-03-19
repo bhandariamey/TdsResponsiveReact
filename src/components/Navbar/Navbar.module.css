@@ -6,7 +6,7 @@ body{
     position: fixed; 
     width: 100%; 
     z-index:1;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbarBrand{
@@ -22,9 +22,17 @@ body{
     color: gray;
     font-weight: 400;
     font-family: 'Jost';
+    color: black;
 
 }
 
 .navLink:hover{
     color: var(--color-primary);
+}
+
+@media(max-width: 748px){
+    .navbarBrand{
+       position: relative;
+       left: -3%;
+    }
 }

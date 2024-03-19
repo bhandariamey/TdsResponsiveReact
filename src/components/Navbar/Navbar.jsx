@@ -1,16 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
 import {  Link } from "react-router-dom";
 import styles from "./Navbar.module.css"
+import logo from "../../assets/Photos/HomePage/logoSvg.svg"
 
 export default function Navbar() {
 
     return (
         <>
             <div className = {styles.navWrapper}>
-                <nav className="navbar navbar-expand-lg border px-md-5 py-3">
+                <nav className="navbar navbar-expand-lg px-md-5 py-0">
                     <div className="container-fluid">
+                        <img src={logo} alt="Logo" height={80}/>
                         
                         <Link className={styles.navbarBrand} to="/">The Design Spell</Link>
                         
