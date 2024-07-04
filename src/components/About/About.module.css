@@ -1,0 +1,123 @@
+
+.quote{
+    margin: 3em; 
+    padding: 2em;
+    text-align: center;
+    background-color: #f4f0ec;
+    border-radius: 2em;
+}
+
+.actualQuote{
+    color: #cda274;
+    border-radius: 50px;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+
+.slider{
+    width: 100%;
+    --divider-width: 5px;
+    outline: white;
+}
+
+.slider img{
+    width:  100vw;
+    height: 500px;
+    object-fit: contain;
+}
+
+.sliderHeader{
+    font-family: "Jost";
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #cda274;
+}
+
+.header{
+    text-align: center;
+    font-family: "DM Serif Display";
+    line-height: 1.6;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.subHeading{
+    text-align: center;
+    font-family: "Jost";
+    font-size: 20px;
+    padding: 20px 200px;
+}
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.wrapper{
+    background-color: #f4f0ec;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+
+@media(max-width: 748px){
+
+    .quote{
+        margin-top: 2em; 
+        border-radius: 1em;
+        padding: 1em;
+    }
+
+    .quotationMark img{
+        height: 40px;
+    }
+
+    .sliderWrapper{
+        margin: 0em 1em;
+    }
+
+    .slider{
+        width:  100%;
+    }
+
+    .slider img{
+        height: 300px;
+    }
+
+    .sliderHeader{
+        font-size: 1.2em;
+        margin-bottom: 0em;
+        
+    }
+   
+}
+
+@media(max-width:500px){
+    .header{
+        font-size: 30px;
+    }
+
+    .subHeading{
+        padding: 0px 20px;
+        margin: 20px 0px 50px 0px;
+    }
+
+    .actualQuote{
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .quote{
+        margin: 2em 1em;
+    }
+
+    .quotationMark img{
+        height: 25px;
+    }
+}
