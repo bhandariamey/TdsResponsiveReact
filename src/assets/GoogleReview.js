@@ -1,5 +1,4 @@
 import boy from '../assets/Photos/GoogleReviews/boy.png'
-import man from '../assets/Photos/GoogleReviews/man.png'
 import man1 from '../assets/Photos/GoogleReviews/man1.png'
 import man2 from '../assets/Photos/GoogleReviews/man2.png'
 import women from '../assets/Photos/GoogleReviews/women1.png'

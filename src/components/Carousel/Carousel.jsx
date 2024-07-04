@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { register } from 'swiper/element/bundle';
 import styles from './Carousel.module.css'
 import { GoogleReviewCard } from '../GoogleReviewCard/GoogleReviewCard';

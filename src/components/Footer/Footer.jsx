@@ -22,7 +22,7 @@ export default function Footer(){
         <>
             <div className={styles.wrapper}>
                 <p className={styles.title}>Contact Us</p>
-                <a className={styles.googleLink} target='_blank' href="https://www.google.com/maps/place/The+Design+Spell/@18.4942006,73.8369866,14z/data=!4m6!3m5!1s0x3bc2c1bf2076a329:0x8e82b6e2e5e8c578!8m2!3d18.4942006!4d73.857586!16s%2Fg%2F11swk1172n?entry=ttu"><p className={styles.address}>Flat no. 1305 : Kumar Surabhi, opp Sai temple,
+                <a rel="noreferrer" className={styles.googleLink} target='_blank' href="https://www.google.com/maps/place/The+Design+Spell/@18.4942006,73.8369866,14z/data=!4m6!3m5!1s0x3bc2c1bf2076a329:0x8e82b6e2e5e8c578!8m2!3d18.4942006!4d73.857586!16s%2Fg%2F11swk1172n?entry=ttu"><p className={styles.address}>Flat no. 1305 : Kumar Surabhi, opp Sai temple,
                 Satara road, Pune, Maharashtra 411009</p></a>
                 <p className={styles.email}>sanjana@thedesignspell.com</p>
                 <p className={styles.phone}>(+91) 90750-40505</p>

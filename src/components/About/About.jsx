@@ -31,7 +31,7 @@ export default function About(){
             <div className={styles.body}>
                 <HeaderImage heading={"About Us"}/>
                 <div className={styles.quote}>
-                    <p className={styles.quotationMark}><img src={blockQuoteIcon} alt="" /></p>
+                    <p className={styles.quotationMark}><img src={blockQuoteIcon} alt="quotation" /></p>
                     <p className={styles.actualQuote}>There are three responses to a piece of design – yes, no, and WOW!
                         <br/>' Wow is the one we aim for '</p> 
                 </div>
@@ -39,8 +39,8 @@ export default function About(){
                 <div className={styles.sliderWrapper}>
                     <p className={styles.sliderHeader}>Designing your space with us is as easy as sliding this bar</p>
                     <ImgComparisonSlider className={styles.slider}>
-                        <img slot="first" src={left} alt="Before image"/>
-                        <img slot="second" src={right} alt="After image"/>
+                        <img slot="first" src={left} alt="Before"/>
+                        <img slot="second" src={right} alt="After"/>
                     </ImgComparisonSlider>
                 </div>
 
